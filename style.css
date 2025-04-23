@@ -141,6 +141,23 @@ ul {
     background-color: #005fa3;
 }
 
+/* Contact icons */
+.contact-info i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #0077cc; /* Match your theme color */
+    font-size: 1.3rem; /* Adjust icon size */   
+    margin: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+}
+
+.contact-info a:hover i {
+    color: #005fa3; /* Icon color on hover */
+  
+}
+
 /* Mobile-friendly adjustments */
 @media (max-width: 768px) {
     .layout {
