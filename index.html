@@ -6,16 +6,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>    
+    <div class="container">
+        <h1 class="main-heading">Hi, I'm Nenad,<br /> Full-Stack Web Developer</h1>      
 
-    <img src="me.png" alt="Nenad Manev" class="profile-photo">
+        <img src="me.png" alt="Nenad Manev" class="profile-photo">
 
-    <div class="contact-info">
-        <h2>Contact Me</h2>
-        <a href="mailto:nenad.manev@gmail.com">nenad.manev@gmail.com</a>
-        <a href="https://www.linkedin.com/in/nenad-manev-13ba6394" target="_blank">LinkedIn</a>
-        <a href="https://github.com/ManevN" target="_blank">GitHub</a>
-        <a href="https://stackoverflow.com/users/15568047/nenadm" target="_blank">Stack Overflow</a>
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <a href="mailto:nenad.manev@gmail.com">nenad.manev@gmail.com</a>
+            <a href="https://www.linkedin.com/in/nenad-manev-13ba6394" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ManevN" target="_blank">GitHub</a>
+            <a href="https://stackoverflow.com/users/15568047/nenadm" target="_blank">Stack Overflow</a>
+        </div>
+
+        <div class="certificates">
+            <h2>AWS Certifications</h2>
+            <ul>
+                <li><a href="https://www.credly.com/badges/e80fd508-fe9a-4573-9780-7e4635409901/public_url" target="_blank">AWS Certified Solutions Architect – Associate</a></li>
+                <li><a href="https://www.credly.com/badges/75e9958b-9fbb-41f0-bd58-76022501f078/public_url" target="_blank">AWS Certified Cloud Practitioner</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="https://formspree.io/f/xovdqwyy" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
     </div>
 </body>
+
+
 </html>
